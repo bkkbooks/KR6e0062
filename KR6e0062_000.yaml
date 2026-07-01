@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6e0062/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 十地論義疏卷第一．第三
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2799.xml
+    old_id: T85n2799
+hash: sha256:337c56622a7767062f2e465a20900502e76dee26276d0ae21d7e64c203851ae7

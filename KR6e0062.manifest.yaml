@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6e0062/v1
+canonical_location: https://kanripo.org/bkk/KR6e0062/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 十地論義疏卷第一．第三
+  identifiers:
+    alt_id:
+    - T85n2799
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2799.xml
+    old_id: T85n2799
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0062_000.yaml, hash: 'sha256:337c56622a7767062f2e465a20900502e76dee26276d0ae21d7e64c203851ae7'}
+  - {seq: 1, filename: KR6e0062_001.yaml, hash: 'sha256:dbb5a478f9ab3f00736f2ee10ac16af2c321a6fef091cc4b68d08e1240997b85'}
+  - {seq: 3, filename: KR6e0062_003.yaml, hash: 'sha256:42da97ebe4c73d1075a8db4e3e0d494ae255e4e058df03dc22bff68ef01486dd'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6e0062_001.markers.yaml, hash: 'sha256:eb3d6ca09499d57cd0c469d3724d6d3e4a9f6bad1630398fd3174a5299fadfbd'}
+  - {seq: 3, role: markers, filename: assets/KR6e0062_003.markers.yaml, hash: 'sha256:81d8f6b87a05d37065fed409a64259ef6ae5b10060aa0867185dd0bdaf231dc0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0062_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 13211
+  label: 十地論義疏卷第一
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6e0062_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 17750
+  label: 十地論義疏卷第三
+  type: juan
+  level: 1
+hash: sha256:0fc8ef7246ae3bbb3d0593e78e3c6eb6072e1000bf08e07b3e7d2f8642633706
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
